@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyghe"
+version = "0.1.0"
+description = "Python interface to the simulation kernel of GHE Analysis: ground heat exchangers, g-functions, borehole resistance, sizing"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+authors = [{ name = "Philippe Pasquier" }]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["geothermal", "ground heat exchanger", "borehole", "g-function", "heat pump", "simulation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://www.gheanalysis.com"
+Documentation = "https://pyghe.readthedocs.io"
+Repository = "https://github.com/ppasquier/pyghe"
+Issues = "https://github.com/ppasquier/pyghe/issues"
+Changelog = "https://pyghe.readthedocs.io/en/latest/changelog.html"
+
+[project.optional-dependencies]
+pandas = ["pandas>=2"]
+notebooks = ["matplotlib>=3.8", "pandas>=2", "jupyterlab>=4"]
+docs = ["sphinx>=7", "myst-nb>=1.1", "numpydoc>=1.7", "sphinx-rtd-theme>=2"]
+test = ["pytest>=7", "pandas>=2", "matplotlib>=3.8", "nbformat>=5", "nbclient>=0.9", "ipykernel>=6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
