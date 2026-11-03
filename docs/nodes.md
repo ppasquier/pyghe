@@ -161,7 +161,7 @@ import numpy as np
 angle = np.linspace(0, 2 * np.pi, 8, endpoint=False)
 ring = np.column_stack([10 * np.cos(angle), 10 * np.sin(angle)])       # 8 boreholes on a 10 m radius
 centre = [(0.0, 0.0)]
-g.coordinates = ga.Coordinates.from_points(np.vstack([ring, centre]))   # g is p.ground_heat_exchanger
+ring_field = ga.Coordinates.from_points(np.vstack([ring, centre]))   # assign it to p.ground_heat_exchanger.coordinates
 ```
 
 [Optimizing the borehole positions](examples/field_layout_optimization.md) lets a search choose

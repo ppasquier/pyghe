@@ -11,7 +11,8 @@ import pytest
 pytest.importorskip("matplotlib")
 
 EXAMPLES = Path(__file__).resolve().parents[1] / "examples"
-SCRIPTS = ["conductivity_uncertainty", "building_growth", "borehole_spacing", "field_ageing"]
+SCRIPTS = ["conductivity_uncertainty", "building_growth", "borehole_spacing", "field_ageing",
+           "field_layout_optimization"]
 
 
 def test_every_script_is_listed():
