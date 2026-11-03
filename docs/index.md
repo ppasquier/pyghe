@@ -7,7 +7,7 @@ application, so a script and the desktop
 application give the same answer.
 
 I wrote it for advanced studies that are tedious to do by hand: parametric sweeps, uncertainty
-analyses, etc. Each variant is one more turn of a loop.
+analyses, optimization of the borehole positions, etc. Each variant is one more turn of a loop.
 
 ```python skip
 import pyghe as ga

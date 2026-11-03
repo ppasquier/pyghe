@@ -21,9 +21,10 @@ conductivity_uncertainty
 building_growth
 borehole_spacing
 field_ageing
+field_layout_optimization
 ```
 
-Each script also exists as a notebook (04 to 07). The first three notebooks go further, with about
+Each script also exists as a notebook (04 to 08). The first three notebooks go further, with about
 thirty figures. They are shown here with the outputs saved in them.
 
 ```{toctree}
@@ -37,4 +38,5 @@ thirty figures. They are shown here with the outputs saved in them.
 ../notebooks/05_building_growth
 ../notebooks/06_borehole_spacing
 ../notebooks/07_field_ageing
+../notebooks/08_field_layout_optimization
 ```

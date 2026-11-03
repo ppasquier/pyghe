@@ -15,7 +15,7 @@ nbformat = pytest.importorskip("nbformat")
 EXAMPLES = Path(__file__).resolve().parents[1] / "examples"
 FIGURES = {"01_simulation.ipynb": 18, "02_sizing.ipynb": 7, "03_parametric_studies.ipynb": 5,
            "04_conductivity_uncertainty.ipynb": 1, "05_building_growth.ipynb": 1,
-           "06_borehole_spacing.ipynb": 1, "07_field_ageing.ipynb": 1}
+           "06_borehole_spacing.ipynb": 1, "07_field_ageing.ipynb": 1, "08_field_layout_optimization.ipynb": 1}
 
 
 def outputs(notebook):

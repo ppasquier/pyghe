@@ -12,7 +12,7 @@ dependencies = ["numpy>=1.24"]
 authors = [{ name = "Philippe Pasquier" }]
 license = "MIT"
 license-files = ["LICENSE"]
-keywords = ["geothermal", "ground heat exchanger", "borehole", "g-function", "heat pump", "simulation"]
+keywords = ["geothermal", "ground heat exchanger", "borehole", "g-function", "heat pump", "simulation", "thermal plume", "groundwater flow"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",

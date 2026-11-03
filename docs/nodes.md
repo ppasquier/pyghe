@@ -152,6 +152,21 @@ ga.Coordinates.from_points([(0, 0), (6, 0), (3, 5)], dip=[90, 90, 80], az=[0, 0,
 
 Leaving `az` and `dip` unset gives vertical boreholes.
 
+The heads need not follow a grid. A staggered field, an L-shaped lot or a ring of boreholes is a
+list of points, and `Coordinates` accepts it as it is:
+
+```python
+import numpy as np
+
+angle = np.linspace(0, 2 * np.pi, 8, endpoint=False)
+ring = np.column_stack([10 * np.cos(angle), 10 * np.sin(angle)])       # 8 boreholes on a 10 m radius
+centre = [(0.0, 0.0)]
+g.coordinates = ga.Coordinates.from_points(np.vstack([ring, centre]))   # g is p.ground_heat_exchanger
+```
+
+[Optimizing the borehole positions](examples/field_layout_optimization.md) lets a search choose
+the points.
+
 ## Sizing tool
 
 `p.sizing_tool`: `duration_of_yearly_pulse` (ty, years: 1, 3, 5, 10, 15, 20, 25 or 50) and

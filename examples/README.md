@@ -1,6 +1,6 @@
 # Examples
 
-Four scripts and seven notebooks run the package on the same small office building. Their figures
+Five scripts and eight notebooks run the package on the same small office building. Their figures
 use the colours and the wording of GHE Analysis, the application the kernel comes from.
 
 | Script | About |
@@ -9,10 +9,11 @@ use the colours and the wording of GHE Analysis, the application the kernel come
 | [`building_growth.py`](building_growth.py) | extreme entering fluid temperatures as the loads grow |
 | [`borehole_spacing.py`](borehole_spacing.py) | minimum entering fluid temperature and length against the spacing |
 | [`field_ageing.py`](field_ageing.py) | yearly extremes of the entering fluid temperature over 50 years |
+| [`field_layout_optimization.py`](field_layout_optimization.py) | free positions of the boreholes in a lot, found by an evolutionary search |
 
 A script runs from this folder and shows its figure, or saves it if you give it a file name:
 `python field_ageing.py figure.png`. Each script also exists as a notebook, from
-`04_conductivity_uncertainty.ipynb` to `07_field_ageing.ipynb`.
+`04_conductivity_uncertainty.ipynb` to `08_field_layout_optimization.ipynb`.
 
 The first three notebooks go further:
 
