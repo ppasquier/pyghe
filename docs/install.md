@@ -11,9 +11,22 @@
 
 ## Installing the package
 
+pyghe is on the Python Package Index. In a terminal, preferably inside a virtual environment:
+
 ```console
 pip install pyghe
 ```
+
+numpy is installed with it. The optional tables (`to_dataframe()`, `sweep`) need pandas, and the
+example notebooks need matplotlib and Jupyter; ask for them with an extra:
+
+```console
+pip install "pyghe[pandas]"
+pip install "pyghe[notebooks]"
+```
+
+Installing the package is only half of the job: pyghe does not contain the computations, which are
+done by an executable that comes from Analysis Suite (next section).
 
 To work on the package itself, install it from a clone of the
 [repository](https://github.com/ppasquier/pyghe):
@@ -21,7 +34,7 @@ To work on the package itself, install it from a clone of the
 ```console
 git clone https://github.com/ppasquier/pyghe
 cd pyghe
-pip install -e .[pandas]
+pip install -e ".[test,docs]"
 ```
 
 ## Finding the executable
