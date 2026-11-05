@@ -4,6 +4,8 @@
 design and simulation of ground heat exchangers. pyghe runs its kernel from Python: borehole
 resistance, g-functions, hourly entering fluid temperatures and the length a borehole field needs.
 It is the same code as the application, so a script and the interface give the same answer.
+The [Python API page](https://www.gheanalysis.com/pages/python-api) of gheanalysis.com gives an
+overview, with example studies.
 
 ```python skip
 import pyghe as ga
@@ -74,7 +76,7 @@ python -m sphinx -b html docs docs/_build/html
 
 pyghe is GHE Analysis driven from Python, so please cite the application.
 
-> Pasquier, P. (2025). *GHE Analysis – Interactive simulation of ground heat exchangers*. P³
+> Pasquier, P. (2025). *GHE Analysis – Interactive simulation of ground-source heat pump systems*. P³
 > Geothermal inc. <https://doi.org/10.5281/zenodo.15660526>
 
 [Citing](docs/citing.md) and [Methods](docs/methods.md) list the papers behind each method.

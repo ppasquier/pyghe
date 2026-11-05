@@ -21,7 +21,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://www.gheanalysis.com"
+Homepage = "https://www.gheanalysis.com/pages/python-api"
+Download = "https://www.gheanalysis.com/pages/download"
 Documentation = "https://pyghe.readthedocs.io"
 Repository = "https://github.com/ppasquier/pyghe"
 Issues = "https://github.com/ppasquier/pyghe/issues"

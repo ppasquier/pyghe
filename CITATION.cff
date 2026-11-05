@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  pyghe drives the simulation kernel of GHE Analysis from Python; it is not
+  separate software. If it helped your work, please cite GHE Analysis with its
+  concept DOI, given below as the preferred citation.
+title: pyghe
+abstract: >-
+  Python interface to the simulation kernel of GHE Analysis: borehole thermal
+  resistance, g-functions, hourly entering fluid temperatures and the sizing of
+  ground heat exchangers.
+type: software
+authors:
+  - family-names: Pasquier
+    given-names: Philippe
+    orcid: "https://orcid.org/0000-0002-8589-1038"
+license: MIT
+repository-code: "https://github.com/ppasquier/pyghe"
+url: "https://www.gheanalysis.com/pages/python-api"
+keywords:
+  - geothermal
+  - ground heat exchanger
+  - borehole
+  - g-function
+  - heat pump
+preferred-citation:
+  type: software
+  title: "GHE Analysis – Interactive simulation of ground-source heat pump systems"
+  authors:
+    - family-names: Pasquier
+      given-names: Philippe
+      orcid: "https://orcid.org/0000-0002-8589-1038"
+  publisher:
+    name: "P³ Geothermal inc."
+  year: 2025
+  doi: "10.5281/zenodo.15660526"
+  url: "https://doi.org/10.5281/zenodo.15660526"

@@ -3,7 +3,7 @@
 pyghe drives the simulation kernel of GHE Analysis from Python; it is not separate software. If it
 helped your work, please cite the application:
 
-> Pasquier, P. (2025). *GHE Analysis – Interactive simulation of ground heat exchangers*. P³
+> Pasquier, P. (2025). *GHE Analysis – Interactive simulation of ground-source heat pump systems*. P³
 > Geothermal inc. <https://doi.org/10.5281/zenodo.15660526>
 
 This is Zenodo's concept DOI. It resolves to the latest version, so the citation stays the same
